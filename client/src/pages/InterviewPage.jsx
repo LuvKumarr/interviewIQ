@@ -19,7 +19,7 @@ function InterviewPage() {
                 setStep(3)}}/>
         )}
         {step === 3 && (
-            <Step3Report reprot={interviewData} />
+            <Step3Report report={interviewData} />
         )}
     </div>
   )
